@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inhale — Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --ground: #f4f6f8;
+    --surface: #ffffff;
+    --ink: #17252e;
+    --ink-secondary: #5a6b75;
+    --hairline: #dce3e8;
+    --link: #10627f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #131c22;
+      --surface: #1b262d;
+      --ink: #eef3f6;
+      --ink-secondary: #9fb0ba;
+      --hairline: #2c3941;
+      --link: #6fc3de;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 20px 96px;
+    background: var(--ground);
+    color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    border-radius: 20px;
+    padding: 40px;
+  }
+  h1 { font-size: 34px; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .sub { color: var(--ink-secondary); margin: 0 0 28px; font-size: 17px; }
+  h2 { font-size: 20px; margin: 36px 0 10px; letter-spacing: -0.01em; }
+  h3 { font-size: 17px; margin: 22px 0 4px; }
+  p { margin: 0 0 12px; }
+  a { color: var(--link); }
+  .contact {
+    background: var(--ground);
+    border: 1px solid var(--hairline);
+    border-radius: 14px;
+    padding: 18px 20px;
+  }
+  .contact a { font-weight: 600; }
+  footer {
+    max-width: 680px;
+    margin: 20px auto 0;
+    color: var(--ink-secondary);
+    font-size: 14px;
+    text-align: center;
+  }
+  @media (max-width: 480px) { main { padding: 28px 22px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Inhale</h1>
+  <p class="sub">Breathwork for iPhone. Pick how you want to feel, then breathe.</p>
+
+  <div class="contact">
+    <p><strong>Need help, or have an idea?</strong></p>
+    <p style="margin:0">Email <a href="mailto:fitindustries.dev@gmail.com">fitindustries.dev@gmail.com</a> — every message
+    is read by the person who makes the app.</p>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <h3>How do I save my sessions to Apple Health?</h3>
+  <p>Allow Inhale to write Mindful Minutes when it asks, and keep <em>Save to Apple Health</em> switched on in
+  Inhale's Settings. Sessions longer than a minute are saved; shorter ones still appear in Inhale's own History.</p>
+
+  <h3>Why don't I see my heart rate?</h3>
+  <p>The before-and-after heart rate comes from readings your Apple Watch takes on its own — there is nothing to
+  install on the Watch. If it never appears, open <strong>Health → Sharing → Apps → Inhale</strong> and switch on
+  <strong>Heart Rate</strong>, then wear your Watch while you practise. At rest the Watch only samples every few
+  minutes, so a very short session may have no reading near it.</p>
+
+  <h3>Where are my presets and routines?</h3>
+  <p>A preset appears at the top of the mood it belongs to — a saved box-breathing pattern, for example, sits under
+  <em>Calm and focused</em>. Routines you build live under <em>Routines</em>, and all of them can be renamed,
+  reordered or deleted in Settings.</p>
+
+  <h3>What is the BOLT test?</h3>
+  <p>A simple measure of how comfortable your body is with carbon dioxide: after a normal breath out, how long until
+  you feel the first clear urge to breathe. You'll find it at the top of <em>Performance</em>. Test at the same time
+  each day, ideally just after waking, and your History tab charts the trend.</p>
+
+  <h3>Does Inhale collect my data?</h3>
+  <p>No. Everything stays on your iPhone and in Apple Health. There are no accounts, no analytics and no tracking —
+  the full details are in the <a href="privacy.html">privacy policy</a>.</p>
+
+  <h2>Safety</h2>
+  <p>Inhale is a training tool, not a medical device. Never practise breath holds or power breathing in or near
+  water, while driving, or while standing. Stop if you feel dizzy or unwell, and talk to a doctor before starting if
+  you are pregnant or have a heart, lung or blood-pressure condition.</p>
+</main>
+<footer>Inhale is developed by James Roche · <a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>
